@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jéssica Ferreira - Assistente Virtual</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%); }
+        .gradient-dark { background: linear-gradient(135deg, #111827 0%, #374151 100%); }
+        .hover-lift { transition: transform 0.2s ease-in-out; }
+        .hover-lift:hover { transform: translateY(-2px); }
+        .text-gradient { background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-gray-900 to-gray-700 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">JF</span>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900">Jéssica Ferreira</h1>
+                        <p class="text-gray-600">Assistente Virtual</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <div class="flex items-center space-x-2 text-gray-600">
+                        <span class="text-sm">📍 Vargem Grande Paulista - SP</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-gray-600">
+                        <span class="text-sm">📱 (11) 9 1414-0306</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Organização, Suporte e 
+                    <span class="text-gradient">Eficiência</span> para o seu Negócio
+                </h2>
+                <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                    Olá! Sou Jéssica Ferreira, especialista em otimizar o seu tempo e simplificar seus processos. 
+                    Com mais de 7 anos de experiência em logística, planejamento e atendimento ao cliente, 
+                    migrei para a assistência virtual para oferecer o que faço de melhor: organizar, planejar e executar.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://wa.me/5511914140306" target="_blank" 
+                       class="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-lg font-medium transition-all hover-lift inline-flex items-center justify-center">
+                        💬 Agendar Conversa
+                    </a>
+                    <a href="#servicos" 
+                       class="border border-gray-900 text-gray-900 hover:bg-gray-50 px-8 py-3 rounded-lg font-medium transition-all hover-lift inline-flex items-center justify-center">
+                        Ver Serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Meus Serviços</h3>
+                <p class="text-xl text-gray-600">Soluções completas para otimizar sua rotina</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover-lift">
+                    <div class="text-center mb-4">
+                        <div class="text-4xl mb-4">📄</div>
+                        <h4 class="text-xl font-semibold text-gray-900">Gestão Administrativa & Financeira</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Organização de documentos e arquivos digitais</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Emissão de notas fiscais e controle de contas</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Criação e gestão de planilhas (Excel, Google Sheets)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover-lift">
+                    <div class="text-center mb-4">
+                        <div class="text-4xl mb-4">⚙️</div>
+                        <h4 class="text-xl font-semibold text-gray-900">Organização & Produtividade</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Gerenciamento de agenda e agendamento de reuniões</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Planejamento e acompanhamento de tarefas (Trello, Notion)</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Criação de processos e fluxos de trabalho eficientes</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover-lift">
+                    <div class="text-center mb-4">
+                        <div class="text-4xl mb-4">💬</div>
+                        <h4 class="text-xl font-semibold text-gray-900">Atendimento & Suporte ao Cliente</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Gestão de e-mails e comunicação via WhatsApp</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Suporte de primeiro nível e follow-up com clientes</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-amber-600 mt-0.5 font-bold">✓</span>
+                            <span class="text-gray-600">Pesquisas de satisfação e gestão de feedback</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Ferramentas que Domino</h3>
+                <p class="text-xl text-gray-600">Tecnologias e plataformas para máxima eficiência</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div class="bg-white border border-gray-200 rounded-lg p-4 hover-lift">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Produtividade</h4>
+                    <div class="space-y-2">
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Trello</div>
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Notion</div>
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Google Agenda</div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-4 hover-lift">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Comunicação</h4>
+                    <div class="space-y-2">
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Slack</div>
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">WhatsApp Business</div>
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Mailchimp</div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-4 hover-lift">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Documentos</h4>
+                    <div class="space-y-2">
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Pacote Office</div>
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Google Workspace</div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-4 hover-lift">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Design</h4>
+                    <div class="space-y-2">
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Canva</div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-4 hover-lift">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Automação</h4>
+                    <div class="space-y-2">
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Zapier</div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-4 hover-lift">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Análise</h4>
+                    <div class="space-y-2">
+                        <div class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm text-center">Power BI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentials Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Por que me contratar?</h3>
+                <p class="text-xl text-gray-600">Meus diferenciais competitivos</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center hover-lift">
+                    <div class="flex justify-center mb-4">
+                        <div class="w-16 h-16 bg-amber-50 rounded-full flex items-center justify-center text-2xl">🎯</div>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Visão Estratégica</h4>
+                    <p class="text-gray-600">Minha experiência em logística me permite otimizar processos e não apenas executar tarefas.</p>
+                </div>
+
+                <div class="text-center hover-lift">
+                    <div class="flex justify-center mb-4">
+                        <div class="w-16 h-16 bg-amber-50 rounded-full flex items-center justify-center text-2xl">⚡</div>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Foco em Resultados</h4>
+                    <p class="text-gray-600">Entrego soluções práticas que geram economia de tempo e dinheiro.</p>
+                </div>
+
+                <div class="text-center hover-lift">
+                    <div class="flex justify-center mb-4">
+                        <div class="w-16 h-16 bg-amber-50 rounded-full flex items-center justify-center text-2xl">🏆</div>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Aprendizado Contínuo</h4>
+                    <p class="text-gray-600">Estou sempre me atualizando (IA Generativa, Lean Six Sigma) para oferecer o melhor serviço.</p>
+                </div>
+
+                <div class="text-center hover-lift">
+                    <div class="flex justify-center mb-4">
+                        <div class="w-16 h-16 bg-amber-50 rounded-full flex items-center justify-center text-2xl">⏰</div>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Flexibilidade Total</h4>
+                    <p class="text-gray-600">Disponível para projetos freelancer ou contratação CLT, com dedicação remota imediata.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Experiência Profissional</h3>
+                <p class="text-xl text-gray-600">Trajetória sólida em logística e atendimento</p>
+            </div>
+            
+            <div class="space-y-8">
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover-lift">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-900">Coordenadora de Logística e Planejamento</h4>
+                            <p class="text-lg text-gray-600">Prefeitura de Vargem Grande Paulista</p>
+                        </div>
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">03/2023 – 01/2025</span>
+                    </div>
+                    <p class="text-gray-600">Organização de processos internos, controle de entregas e relatórios administrativos.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover-lift">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-900">Consultora de Negócios</h4>
+                            <p class="text-lg text-gray-600">Vivo Empresas</p>
+                        </div>
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">09/2019 – 02/2023</span>
+                    </div>
+                    <p class="text-gray-600">Atendimento remoto e consultivo, organização de carteira de clientes, registro e acompanhamento de tarefas.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover-lift">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-900">Assistente de Logística</h4>
+                            <p class="text-lg text-gray-600">Única Corporation</p>
+                        </div>
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">07/2017 – 04/2019</span>
+                    </div>
+                    <p class="text-gray-600">Apoio administrativo, emissão de documentos, conferência de dados e relatórios operacionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 gradient-dark text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold mb-6">
+                Vamos otimizar seu negócio juntos?
+            </h3>
+            <p class="text-xl mb-8 text-gray-300">
+                Agende uma conversa de 15 minutos, sem compromisso, para entendermos como posso ajudar você.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5511914140306" target="_blank"
+                   class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-lg font-medium transition-all hover-lift inline-flex items-center justify-center">
+                    💬 Conversar no WhatsApp
+                </a>
+                <a href="mailto:jessica@email.com" target="_blank"
+                   class="border border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-medium transition-all hover-lift inline-flex items-center justify-center">
+                    ✉️ Enviar E-mail
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                    <div class="w-10 h-10 bg-gradient-to-br from-gray-900 to-gray-700 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold">JF</span>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Jéssica Ferreira</h4>
+                        <p class="text-gray-600 text-sm">Assistente Virtual</p>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-gray-600">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm">📍 Vargem Grande Paulista - SP</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm">📱 (11) 9 1414-0306</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm">⏰ Disponível Remotamente</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 pt-8 border-t border-gray-200 text-center">
+                <p class="text-gray-600 text-sm">
+                    © 2025 Jéssica Ferreira. Todos os direitos reservados. | Disponível para trabalho remoto - CLT ou Freelancer
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
